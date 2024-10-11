@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CypherX - Sign Up</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+          <div class="logo">Cypher
+          <img src="images/logo.png" alt="CypherX Logo"></div>
+          <a href="#" class="get-started">Get Started</a>
+        </nav>
+      </header>
+
+    <section class="auth-container">
+        <div class="auth-box">
+            <h2>Sign Up</h2>
+            <form action="#" method="POST" class="auth-form">
+                <div class="form-group">
+                    <!-- <label for="name">Name</label> -->
+                    <input type="text" id="name" name="name" required placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <!-- <label for="email">Email</label> -->
+                    <input type="email" id="email" name="email" required placeholder="Email ID">
+                </div>
+                <div class="form-group">
+                    <!-- <label for="password">Password</label> -->
+                    <input type="password" id="password" name="password" required placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <!-- <label for="confirm-password">Confirm Password</label> -->
+                    <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm Password">
+                </div><br/>
+                
+                <div class="form-group remember-me">
+                    <input type="checkbox" id="remember-me" name="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                
+                <div class="form-group terms">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">I agree to all the <a href="#">Terms</a> and <a href="#">Privacy policy</a></label>
+                </div>
+                
+                <button type="submit" class="cta">Create Account</button>
+            </form>
+            <p>Already have an account? <a href="login.html">Log in</a></p>
+        </div>
+    </section>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
